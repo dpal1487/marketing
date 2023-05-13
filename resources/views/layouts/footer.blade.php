@@ -1,4 +1,4 @@
-<footer class="bg-light">
+<footer class="footer-background">
     <div class="container">
         <div class="row">
             <div class="f-items default-padding">
@@ -12,10 +12,10 @@
                         </p>
                         <div class="social">
                             <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                <li><a href="#" class="grid-centered"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#" class="grid-centered"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" class="grid-centered"><i class="fab fa-pinterest"></i></a></li>
+                                <li><a href="#" class="grid-centered"><i class="fab fa-dribbble"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -57,7 +57,7 @@
 
                             <li>
                                 <h4>Phone</h4>
-                                <div class="icon"><i class="fas fa-phone"></i></div>
+                                <div class="icon"><i class="fas fa-phone" style="transform: rotate(90deg);"></i></div>
                                 <p>+44-20-7328-4499 <br>+99-34-8878-9989</p>
                             </li>
                         </ul>
@@ -68,7 +68,7 @@
         </div>
     </div>
     <!-- Start Footer Bottom -->
-    <div class="footer-bottom bg-dark text-light">
+    <div class=" footer-bottom bg-dark text-light">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">

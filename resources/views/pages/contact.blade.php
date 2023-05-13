@@ -3,9 +3,21 @@
 @section('content')
 <!-- Start Contact Area
     ============================================= -->
-<div id="contact" class="contact-area default-padding bg-gray">
+
+<div id="contact" class="contact-area default-padding bg-gray background">
     <div class="container">
+
         <div class="row">
+
+            @if(Session::has('success'))
+            <div class="alert alert-warning" role="alert">
+                <strong>Holy guacamole!</strong> {{ session('success') }}
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            @endif
             <div class="contact-items bg-contain" style="background-image: url(assets/img/map.svg);">
                 <div class="col-md-4 address">
                     <div class="address-items">
@@ -73,6 +85,7 @@
                             <div class="row">
                                 <button type="submit" name="submit" id="submit">
                                     Send Message <i class="fa fa-paper-plane"></i>
+                                    <!-- <span class="align-items-center">Please wait <span class="spinner-border spinner-border-sm "></span></span> -->
                                 </button>
                             </div>
                         </div>
@@ -88,3 +101,10 @@
 </div>
 <!-- End Contact Area -->
 @endsection
+<script type="text/javascript">
+    setTimeout(function() {
+
+        // Closing the alert
+        $('#alert').alert('close');
+    }, 2000);
+</script>

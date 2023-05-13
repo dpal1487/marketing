@@ -404,18 +404,14 @@
             // Animate loader off screen
             $(".se-pre-con").fadeOut("slow");
         });
-
-
         /* ==================================================
             Contact Form Validations
         ================================================== */
         $('.contact-form').each(function() {
             var formInstance = $(this);
             formInstance.submit(function() {
-
                 var action = $(this).attr('action');
                 var _token =  $('meta[name="csrf-token"]').attr('content');
-
                 $("#message").slideUp(750, function() {
                     $('#message').hide();
                     $('#submit')
@@ -428,8 +424,9 @@
                             comments: $('#comments').val(),
                             _token:  _token ,
                         },
-                        function(data) {                            
-                            document.getElementById('message').innerHTML = data;
+                        function(data) {  
+                            
+                            // document.getElementById('message').innerHTML = data;
                             $('#message').slideDown('slow');
                             $('.contact-form img.loader').fadeOut('slow', function() {
                                 $(this).remove()
@@ -444,5 +441,5 @@
             });
         });
 
-    }); // end document ready function
-})(jQuery); // End jQuery
+    }); 
+})(jQuery); 

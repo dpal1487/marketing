@@ -27,4 +27,16 @@ class HomeController extends Controller
     {
         return view('pages.contact');
     }
+    public function powerofMarketResearch()
+    {
+        return view('pages.blogs.market-research');
+    }
+    public function onlineSurveys()
+    {
+        return view('pages.blogs.online-surveys');
+    }
+    public function panelMarketResearch()
+    {
+        return view('pages.blogs.panel-market-research');
+    }
 }

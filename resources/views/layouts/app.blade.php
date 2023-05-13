@@ -23,10 +23,12 @@
     <link href="{{asset('assets/css/bootsnav.css')}}" rel="stylesheet" />
     <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
     <link href="{{asset('assets/css/responsive.css')}}" rel="stylesheet" />
+
     <!-- ========== End Stylesheet ========== -->
     <!-- ========== Google Fonts ========== -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
 </head>
 

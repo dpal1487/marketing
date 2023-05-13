@@ -2,7 +2,7 @@
 @section('content')
 <!-- Start Our About
     ============================================= -->
-<div class="about-area full-width inc-shadow mt default-padding bottom-less">
+<div class="about-area full-width inc-shadow mt default-padding bottom-less background">
     <div class="container">
         <div class="row">
             <!-- Start About -->

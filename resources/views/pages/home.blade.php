@@ -13,7 +13,7 @@
                             <div class="row">
                                 <div class="col-md-8">
                                     <div class="content">
-                                        <h3 data-animation="animated slideInRight">Welcome to buspro</h3>
+                                        <h3 data-animation="animated slideInRight">Welcome to MarketElevate Research: Illuminating Pathways to Success</h3>
                                         <h1 data-animation="animated slideInLeft">We are <span>Providing</span> Best Business Service</h1>
                                         <a data-animation="animated slideInUp" class="btn btn-light effect btn-md" href="#">View Projects</a>
                                         <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="#">Learn more</a>
@@ -32,7 +32,7 @@
                             <div class="row">
                                 <div class="col-md-8">
                                     <div class="content">
-                                        <h3 data-animation="animated slideInUp">Include more sales</h3>
+                                        <h3 data-animation="animated slideInUp">Welcome to MarketElevate Research: Your Trusted Partner in Market Insights</h3>
                                         <h1 data-animation="animated slideInDown">make unique <span>planning</span> for your business</h1>
                                         <a data-animation="animated slideInUp" class="btn btn-light effect btn-md" href="#">View Projects</a>
                                         <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="#">Learn more</a>
@@ -51,7 +51,7 @@
                             <div class="row">
                                 <div class="col-md-8">
                                     <div class="content">
-                                        <h3 data-animation="animated slideInLeft">More convenient than others</h3>
+                                        <h3 data-animation="animated slideInLeft">Welcome to MarketElevate Research: Driving Business Growth Through Data-Driven Insights</h3>
                                         <h1 data-animation="animated slideInRight">Find Value And <span>Build</span> confidence</h1>
                                         <a data-animation="animated slideInUp" class="btn btn-light effect btn-md" href="#">View Projects</a>
                                         <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="#">Learn more</a>
@@ -77,14 +77,37 @@
     </div>
 
 </div>
-<div class="services-area bg-gray default-padding bottom-less ">
+<div class="services-area bg-gray default-padding bottom-less background">
 
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="site-heading text-center">
-                    <h2>Case Studies</h2>
+                    <h2>Home Page</h2>
 
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="services-items item-cell">
+                <!-- Single Item -->
+                <div class="col-md-12 col-sm-12 equal-height">
+                    <div class="item">
+                        <p>
+                            Welcome to MarketElevate Research, your reliable market research partner. Our objective is to provide unique insights into target markets to assist businesses and organizations in making informed decisions. We are committed to providing high-quality research solutions that match your specific demands, based on our years of experience and a team of competent professionals. Contact us today to find out how we can help you grow your business
+                        </p>
+
+                    </div>
+                </div>
+                <!-- End Single Item -->
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="site-heading text-center">
+                    <h2>Case Studies</h2>
                 </div>
             </div>
         </div>
@@ -93,7 +116,6 @@
                 <!-- Single Item -->
                 <div class="col-md-6 col-sm-12 equal-height">
                     <div class="item">
-
                         <div class="info">
                             <p>
                                 At MarketElevate Research, we have a proven track record of delivering high-quality research solutions to our clients. Here are some examples of successful projects we've completed for our clients.
